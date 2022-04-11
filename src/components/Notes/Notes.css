@@ -1,0 +1,38 @@
+
+.notes {
+    background-color: white;
+    padding: 2%;
+  }
+  
+  .notes-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:4% 4% 4% 8%;
+  }
+  
+  .notes-mid {
+  background-color: rgb(242, 245, 249);
+  padding: 8% 4% 6%;
+  }
+  
+  .notes-mid ul {
+    list-style:none;
+    padding: 0 4% 6%;
+  }
+  
+  .notes-mid button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    padding: 1% 2%;
+  }
+  
+  .notes-bottom {
+    padding:0% 4% 2% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

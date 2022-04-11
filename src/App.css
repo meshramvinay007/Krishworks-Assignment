@@ -1,0 +1,46 @@
+/* .App {
+  text-align: center;
+} */
+
+h2,h3,h4 {
+ margin: auto;
+}
+
+.blue {
+  color: rgb(0, 63, 233);
+}
+
+.grey 
+{
+  color:rgb(136, 148, 158);
+}
+p{
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+
+.main {
+  background-color: rgb(242, 245, 249);
+  margin-left:250px;
+  transition: 0.5s;
+}
+
+
+
+.top-3 {
+  padding: 1.25% 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  margin-right: 2%;
+  width: 75%;
+}
+
+
+.right {
+  width: 30%;
+}
+
+

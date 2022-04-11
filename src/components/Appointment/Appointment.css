@@ -1,0 +1,103 @@
+
+.appointment {
+    background-color: white;
+    margin-top: 2%;
+    padding: 2%;
+  }
+  
+  .appoint-top {
+    width: 80%;
+    display: flex;
+    background-color: rgb(242, 245, 249);
+    padding: 0.5%;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .appoint-top  div{
+    
+    padding: 1% 5%;
+    border-radius:5px ;
+    
+    font-weight: bold;
+  }
+  
+  .appoint-top .active {
+    background-color: white;
+    color: rgb(0, 63, 233);
+  }
+  
+  .appoint-low {
+    background-color: rgb(242, 245, 249);
+    margin-top: 2%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .treatment-section {
+    padding: 2% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-bottom:0.0001rem solid rgb(211, 218, 223);
+  }
+  
+  .treatment-section button {
+    
+    height: 2.25rem;
+    border-radius: 3px;
+    border:0.0001rem solid rgb(211, 218, 223);
+    background-color: white;
+    color: gray;
+  }
+  .appoint-detail {
+    padding: 2% 4%;
+    background-color: rgb(242, 245, 249);
+   
+  }
+  
+  .detail-sec {
+    min-width: 700px;
+    overflow-x: auto;
+    padding: 2% 3%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .date {
+   width: 25%;
+   margin: auto;
+    border-right:0.0001rem solid rgb(211, 218, 223); ;
+  }
+  
+  .treatment {
+    width: 30%;
+    border-right:0.0001rem solid rgb(211, 218, 223); 
+  }
+  
+  .treatment div {
+    width: 100%;
+    margin-left: 20%;
+  }
+  
+  .doc-info {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(0, 63, 233)
+  }
+  
+  .note p {
+    margin-left:8px ;
+  }

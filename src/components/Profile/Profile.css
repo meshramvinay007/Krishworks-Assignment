@@ -1,0 +1,63 @@
+
+.info {
+    display: flex;
+  }
+  
+  .profile {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .profile img {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    width: 20%;
+    border-radius: 100%;
+  }
+  
+  .profile .past-up {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    font-size: 80%;
+  }
+  
+  .past-up .past {
+    /* margin: 0 auto; */
+    width: 100%;
+    
+  }
+  
+  .past-up .up {
+    /* margin: 0 auto; */
+    border-left: 0.125px ridge grey;
+    width: 100%;
+  } 
+  
+  .up h2,.past h2 {
+  margin-top: 0;
+  }
+  
+  .up p,.past p {
+    margin-bottom: 0;
+    }
+  
+  .profile button {
+    width: 80%;
+    margin: 4% 0 10%;
+    height: 2.25rem;
+    border-radius: 3px;
+    border:0.0001rem solid rgb(211, 218, 223);
+    background-color: white;
+  }
+  
+  .basic-info {
+    width: 70%;
+    background-color: white;
+    margin-left: 0.5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5% 4%;
+  }
+  
